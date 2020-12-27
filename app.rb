@@ -22,7 +22,7 @@ end
 get '/join' do
 redirect Eyeson::Room.join(
   id: 'lp676fTdKaswLS',
-  name: 'Silvesterparty Küche',
+  name: 'Silvesterparty',
   user: {
     id: SecureRandom.uuid, # unique identifier for each user
     name: Faker::BojackHorseman.character, # random username
