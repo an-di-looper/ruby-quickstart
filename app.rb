@@ -21,7 +21,7 @@ end
 # client to the web GUI.
 get '/join' do
 redirect Eyeson::Room.join(
-  id: 'lp676fTdKaswLS',
+  id: '3THf527oD3BZewVQFCEZjczB',
   name: 'Silvesterparty',
   user: {
     id: SecureRandom.uuid, # unique identifier for each user
